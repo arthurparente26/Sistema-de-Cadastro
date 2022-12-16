@@ -1,19 +1,29 @@
-Sistema-de-Cadastro
+# Sistema-de-Registro
+
+<h1 align="center"> Sistema-de-Registro </h1>
+
 Desenvolvedor: Arthur Parente.
 
-Descrição do projeto
-Projeto Web com funcionalidades do CRUD.
+## Descrição do projeto
 
-Status do Projeto
+Desenvolver um projeto que faça o cadastro de usuarios além de manipulação dos dados cadastrados.
+
+## Status do Projeto
+
 Desenvolvimento.
 
-**Basta baixa-lo pelo github pelo link: https://github.com/arthurparente26/Sistema-de-Registro-Crud.
+## Acesso ao projeto
 
-Tecnologias usadas
-Visual Studio Code
-HTML/CSS
-PHP
-Bootstrap
-MySql
-Autor
-| Arthur Parente|
+**Basta baixa-lo pelo github pelo link: https://github.com/arthurparente26/Site-Oficial-Chora-BB.
+
+## Tecnologias usadas
+
+- `Visual Studio Code`
+- `Bootstrap`
+- `HTML/CSS`
+- `MySql`
+- `PHP`
+
+## Autor
+
+| [Arthur Parente</sub>](https://github.com/arthurparente26)|

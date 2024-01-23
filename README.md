@@ -12,14 +12,9 @@ Desenvolver um projeto que faça o cadastro de usuarios além de manipulação d
 
 Desenvolvimento.
 
-## Acesso ao projeto
-
-**Basta baixa-lo pelo github pelo link: https://github.com/arthurparente26/Site-Oficial-Chora-BB.
-
 ## Tecnologias usadas
 
 - `Visual Studio Code`
-- `Bootstrap`
 - `HTML/CSS`
 - `MySql`
 - `PHP`

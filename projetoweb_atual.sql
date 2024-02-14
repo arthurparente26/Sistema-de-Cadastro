@@ -32,7 +32,7 @@ DROP TABLE IF EXISTS `usuarios`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `usuarios` (
   `cpf` varchar(11) NOT NULL,
-  `senha` varchar(45) NOT NULL,
+  `senha` varchar(40) NOT NULL,
   `nome` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
   `telefone` varchar(45) NOT NULL,
@@ -48,13 +48,6 @@ CREATE TABLE `usuarios` (
 --
 -- Dumping data for table `usuarios`
 --
-
-LOCK TABLES `usuarios` WRITE;
-/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` (`cpf`, `senha`, `nome`, `email`, `telefone`, `sexo`, `data_nasc`, `cidade`, `estado`, `endereco`) VALUES ('1111111','123456789','Yasmin Parente','yasmin@gmail.com','2134567','fem','2015-11-20','Brasilia','Df','tal3'),('12345','123','Arthur Soares','arthur@gmail.com','54321','masc','0000-00-00','Brasilia','Df','rua 27 casa21'),('12345678','12345','Jose Parente','jose@gmail.com','54321','sexo','1971-06-15','Sobral','CE','tal1'),('123456789','marcia','Marcia Soares','marcia@gmail.com','54321','sexo','2000-11-20','Brasilia','DF','tal2');
-/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

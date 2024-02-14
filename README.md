@@ -1,7 +1,5 @@
 # Sistema-de-Registro
 
-<h1 align="center"> Sistema-de-Registro </h1>
-
 Desenvolvedor: Arthur Parente.
 
 ## Descrição do projeto
@@ -10,7 +8,7 @@ Projeto solicitado na materia de Desenvolvimento Web na Escola Técnica de Brasi
 
 ## Status do Projeto
 
-Desenvolvimento.
+Concluido
 
 ## Tecnologias usadas
 

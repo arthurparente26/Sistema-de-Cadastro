@@ -43,7 +43,7 @@ body {
 }
 
 .cad-box{
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-45%);
   background-color: #141e30;
   border-radius: 15px;
   position: absolute;

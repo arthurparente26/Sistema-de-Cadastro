@@ -4,11 +4,11 @@ Desenvolvedor: Arthur Parente.
 
 ## Descrição do projeto
 
-Projeto solicitado na materia de Desenvolvimento Web na Escola Técnica de Brasilia<br>Objetivo:Desenvolver um projeto que faça o cadastro de usuarios além de manipulação dos dados cadastrados. 
+Objetivo:Desenvolver um projeto que faça o cadastro de usuarios além de manipulação dos dados cadastrados. 
 
 ## Status do Projeto
 
-Concluido
+Desenvolvimento
 
 ## Tecnologias usadas
 

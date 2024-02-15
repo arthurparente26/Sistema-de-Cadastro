@@ -3,7 +3,7 @@
 $dbHost = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "projeto"; 
+$dbName = "sistemacadastro"; 
 
 $connection = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
 

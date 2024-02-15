@@ -4,7 +4,7 @@ Desenvolvedor: Arthur Parente.
 
 ## Descrição do projeto
 
-Objetivo:Desenvolver um projeto que faça o cadastro de usuarios além de manipulação dos dados cadastrados. 
+Objetivo:Desenvolver um projeto que faça o cadastro de usuarios e manipule dados cadastrados. 
 
 ## Status do Projeto
 

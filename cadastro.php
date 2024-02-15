@@ -3,6 +3,7 @@
     if(isset($_POST['submit'])){
         include_once("connection.php");
 
+        //Armazena dados do formulario em variaveis
         $nome = $_POST['nome'];
         $cpf = $_POST['cpf'];
         $email = $_POST['email'];

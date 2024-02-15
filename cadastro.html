@@ -25,26 +25,30 @@
         
         <form method="post" action="cadastro.php">
             <div class="user-box">
-                <input type="text" name="nome" required>
                 <label >Nome</label>
+                <br>
+                <input type="text" name="nome" id="nome"required>
             </div>
             <div class="user-box">
-                <input type="text" name="email" required>
                 <label >Email</label>
+                <br>
+                <input type="text" name="email" id="email"required>
             </div>
             <div class="user-box">
-                <input type="text" name="endereco" required>
                 <label >Endereco</label>
+                <br>
+                <input type="text" name="endereco" id="endereco" required>
             </div>
             <div class="user-box">
-                <input type="password" name="senha" required>
                 <label>Senha</label>
+                <br>
+                <input type="password" name="senha" id="senha" required>
             </div>
             <div class="btn">
-                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Cadastrar" name="submit" id="submit">
             </div>
-        
         </form>
+    </div>
     
 </body>
 </html>

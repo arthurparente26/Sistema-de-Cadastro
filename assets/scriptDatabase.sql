@@ -6,10 +6,10 @@ CREATE SCHEMA IF NOT EXISTS `sistemacadastro` DEFAULT CHARACTER SET utf8 ;
 USE `sistemacadastro` ;
 
 CREATE TABLE IF NOT EXISTS `sistemacadastro`.`usuarios` (
-  `cpf` INT NOT NULL,
+  `cpf` VARCHAR(11) NOT NULL,
   `nome` VARCHAR(45) NOT NULL,
   `email` VARCHAR(100) NOT NULL,
-  `telefone` INT NOT NULL,
+  `telefone` VARCHAR(11) NOT NULL,
   `senha` VARCHAR(45) NOT NULL,
   `dataNasc` DATE NOT NULL,
   PRIMARY KEY (`cpf`))

@@ -17,7 +17,7 @@
         <div id="navbar-container">
             <h1 class="logo">Sistema de Cadastro</h1>
             <ul id="navbar-items">
-                <li><a href="/login.html">Login</a></li>
+                <li><a href="/index.html">Login</a></li>
                 <li><a href="/cadastro.html">Cadastro</a></li>
             </ul>
         </div>

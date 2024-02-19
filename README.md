@@ -4,16 +4,19 @@ Desenvolvedor: Arthur Parente.
 
 ## Descrição do projeto
 
-Objetivo:Desenvolver um projeto que faça o cadastro de usuarios e manipule dados cadastrados. 
+Objetivo:Desenvolver um projeto que faça o cadastro de usuarios, edite todos os dados ,delete os dados se necessario e faça uma pesquisa de dados cadastrados no sitema.
 
 ## Status do Projeto
 
-Desenvolvimento
+Concluído.
 
 ## Tecnologias usadas
 
 - `Visual Studio Code`
+- `MySql Workbench`
+- `BootStrap`
 - `HTML/CSS`
+- `Xampp`
 - `MySql`
 - `PHP`
 

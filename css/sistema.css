@@ -38,16 +38,18 @@ body {
     padding: 40px;
   }
 
-  .box{
-    transform: translate(-50%,-45%);
-    align-items: center;
-    position: absolute;
-    color: white;
-    width: 20%;
-    top: 50%;
-    left: 50%;
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
   }
 
-  .box h1{
-    text-align: center;
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
   }

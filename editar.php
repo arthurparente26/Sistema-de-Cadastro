@@ -4,9 +4,11 @@
 
         $id = $_GET['cpf'];
 
+        //BUSCA OS CADASTROS COM OS DADOS 
         $sqlSelect = "SELECT * FROM usuarios where cpf=$id";
         $result = $connection->query($sqlSelect);
 
+        //GUARDA OS DADOS BUSCADOS EM VARIAVEIS
         if($result->num_rows > 0){
             while ($user_data = mysqli_fetch_assoc($result)) {
                 $nome = $user_data['nome'];
@@ -47,6 +49,7 @@
 
     <div class="cad-box">
         <h2>Cadastre-se</h2>
+        <!-- MANDA PARA OS INPUTS OS VALORES DAS VARIAVEIS BUSCADOS NO BANCO DE DADOS (VALUES) -->
         <form method="post" action="saveEdit.php">
             <div class="user-box">
                 <input type="text" name="nome" id="nome" class="input-user" value="<?php echo $nome ?>" required >

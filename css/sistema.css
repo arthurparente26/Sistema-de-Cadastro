@@ -1,5 +1,5 @@
 body {
-    background-color:#243b55;
+    background-color:#243f55;
     font-family: sans-serif;
     margin:0;
     padding:0;
@@ -38,18 +38,8 @@ body {
     padding: 40px;
   }
 
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  h1{
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
   }

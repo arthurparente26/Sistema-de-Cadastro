@@ -1,4 +1,5 @@
 <?php
+    //ABRE UMA SESSAO 
     session_start();
     //Verifica se os dados preeenchidos foram enviados vazios
     if(isset($_POST['submit']) && !empty($_POST['email']) && !empty($_POST['senha'])){
